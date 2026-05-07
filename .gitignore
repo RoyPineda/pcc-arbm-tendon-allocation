@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Python cache, just in case
+__pycache__/
+*.pyc
+
+# Large temporary files
+*.zip
+*.tar.gz

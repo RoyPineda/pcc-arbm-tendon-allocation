@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "PCC--ARBM Tendon Allocation for Motor-Driven Continuum Arms"
+message: "If you use this supplementary material, please cite the associated paper."
+type: dataset
+authors:
+  - family-names: Pineda
+    given-names: Rogelio
+  - family-names: Espinosa
+    given-names: Isaac
+  - family-names: Flores
+    given-names: Gerardo
+  - family-names: Becerra
+    given-names: Hector M.
+year: 2026
+preferred-citation:
+  type: conference-paper
+  title: "A Control Allocation Strategy for Tendon-driven Arms Modeled Via the Augmented Rigid Body Approach"
+  authors:
+    - family-names: Pineda
+      given-names: Rogelio
+    - family-names: Espinosa
+      given-names: Isaac
+    - family-names: Flores
+      given-names: Gerardo
+    - family-names: Becerra
+      given-names: Hector M.
+  conference:
+    name: "23rd IFAC World Congress"
+  year: 2026
