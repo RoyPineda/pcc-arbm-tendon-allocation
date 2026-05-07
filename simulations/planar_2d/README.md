@@ -50,15 +50,6 @@ The planar animation shows the motion of the three-segment soft arm during curva
 
 ![Planar case animation](./videos/planar_case_animation.gif)
 
-## Files
-
-```text
-figures/planar_tracking.png
-figures/planar_tracking.pdf
-figures/planar_tensions_motors.png
-figures/planar_tensions_motors.pdf
-videos/planar_case_animation.mp4
-```
 
 ## Notes
 
