@@ -45,7 +45,7 @@ The main geometric and motor--tendon parameters used in the simulations are summ
 If you use this material, please cite the corresponding paper:
 
 ```bibtex
-@inproceedings{pineda2026allocation,
+@inproceedings{PCCARBM2026TendonAllocation,
   title     = {A Control Allocation Strategy for Tendon-driven Arms Modeled Via the Augmented Rigid Body Approach},
   author    = {Pineda, Rogelio and Espinosa, Isaac and Flores, Gerardo and Becerra, Hector M.},
   booktitle = {Proceedings of the 23rd IFAC World Congress},
