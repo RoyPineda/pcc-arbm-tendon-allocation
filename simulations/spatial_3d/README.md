@@ -15,7 +15,7 @@ q = [\phi, \theta]^\top
 ```
 
 where:
-- `phi`  is the bending-plane orientation,
+- φ is the bending-plane orientation,
 - θ is the bending magnitude.
 
 The purpose of this simulation is to illustrate how curvature-space control efforts are mapped into internal bending torques, tendon tensions, and motor commands through the proposed control-allocation and motor--tendon model.
@@ -66,6 +66,3 @@ The spatial animation shows the motion of the 3D tendon-driven continuum segment
 
 ![Spatial 3D case animation](./videos/spatial_3d_case_animation.gif)
 
-## Notes
-
-This spatial 3D case is the main simulation case reported in the paper.

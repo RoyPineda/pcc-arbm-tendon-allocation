@@ -51,6 +51,3 @@ The planar animation shows the motion of the three-segment soft arm during curva
 ![Planar case animation](./videos/planar_case_animation.gif)
 
 
-## Notes
-
-This planar case is provided as supplementary material to complement the spatial 3D simulation case reported in the main paper.
