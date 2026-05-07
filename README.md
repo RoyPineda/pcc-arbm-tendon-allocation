@@ -25,3 +25,29 @@ supplementary/              Supplementary PDF material.
 simulations/planar_2d/      Figures and videos for the planar three-segment case.
 simulations/spatial_3d/     Figures and videos for the spatial 3D case.
 parameters/                 Simulation parameter summary.
+```
+
+## Simulation cases
+
+- [Planar 2D case](./simulations/planar_2d/)
+- [Spatial 3D case](./simulations/spatial_3d/)
+
+Each simulation folder contains a dedicated README file with a short description of the setup, the reference trajectories, the corresponding figures, and the available animations.
+
+## Simulation parameters
+
+The main geometric and motor--tendon parameters used in the simulations are summarized in:
+
+- [Simulation parameters](./parameters/simulation_parameters.md)
+
+## Citation
+
+If you use this material, please cite the corresponding paper:
+
+```bibtex
+@inproceedings{pineda2026allocation,
+  title     = {A Control Allocation Strategy for Tendon-driven Arms Modeled Via the Augmented Rigid Body Approach},
+  author    = {Pineda, Rogelio and Espinosa, Isaac and Flores, Gerardo and Becerra, Hector M.},
+  booktitle = {Proceedings of the 23rd IFAC World Congress},
+  year      = {2026}
+}
