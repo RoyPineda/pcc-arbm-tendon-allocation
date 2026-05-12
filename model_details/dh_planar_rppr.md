@@ -24,16 +24,16 @@ L_i\tfrac{\sin(q_i/2)}{q_i}, &
 
 # DH table
 
-$$
-\begin{array}{|c|c|c|c|c|c|}
-\text{Link} & \theta & d & a & \alpha & \mu \\
-\hline
-1 & q_i/2 & 0 & 0 & \pi/2 & 0 \\
-2 & 0 & L_i\frac{\sin(q_i/2)}{q_i} & 0 & 0 & \mu_i \\
-3 & 0 & L_i\frac{\sin(q_i/2)}{q_i} & 0 & -\pi/2 & 0 \\
-4 & q_i/2 & 0 & 0 & 0 & 0
-\end{array}
-$$
+<div align="center">
+
+| Link | $\theta$ | $d$ | $a$ | $\alpha$ | $\mu$ |
+|------|----------|-----|-----|----------|-------|
+| 1 | $q_i/2$ | $0$ | $0$ | $\pi/2$ | $0$ |
+| 2 | $0$ | $L_i\frac{\sin(q_i/2)}{q_i}$ | $0$ | $0$ | $\mu_i$ |
+| 3 | $0$ | $L_i\frac{\sin(q_i/2)}{q_i}$ | $0$ | $-\pi/2$ | $0$ |
+| 4 | $q_i/2$ | $0$ | $0$ | $0$ | $0$ |
+
+</div>
 
 ## Description
 
