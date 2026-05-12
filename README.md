@@ -25,6 +25,7 @@ supplementary/              Supplementary PDF material.
 simulations/planar_2d/      Figures and videos for the planar three-segment case.
 simulations/spatial_3d/     Figures and videos for the spatial 3D case.
 parameters/                 Simulation parameter summary.
+model_details/              DH parametrizations and additional ARBM model details.
 ```
 
 ## Simulation cases
@@ -39,6 +40,14 @@ Each simulation folder contains a dedicated README file with a short description
 The main geometric and motor--tendon parameters used in the simulations are summarized in:
 
 - [Simulation parameters](./parameters/simulation_parameters.md)
+
+## Model details
+
+Additional model details omitted from the main paper are provided in:
+
+- [Model details](./model_details/)
+
+This includes the Denavit--Hartenberg parametrizations of the planar RPPR and spatial RRPRRRRPRR augmented rigid-body chains used in the PCC--ARBM formulation.
 
 ## Citation
 
