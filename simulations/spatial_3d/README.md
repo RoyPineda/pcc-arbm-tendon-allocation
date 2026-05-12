@@ -15,8 +15,8 @@ q = [\phi, \theta]^\top
 ```
 
 where:
-- φ is the bending-plane orientation,
-- θ is the bending magnitude.
+- $\phi$ is the bending-plane orientation,
+- $\theta$ is the bending magnitude.
 
 The purpose of this simulation is to illustrate how curvature-space control efforts are mapped into internal bending torques, tendon tensions, and motor commands through the proposed control-allocation and motor--tendon model.
 
@@ -35,13 +35,19 @@ The controller tracks desired references for both the bending-plane orientation 
 The 3D segment follows two independent references:
 
 - **Bending-plane orientation** `phi(t)`: ramp reference from a negative to a positive orientation.
-- **Bending magnitude** `theta(t)`: sinusoidal reference with a positive bias.
+```math
+\bar{\phi}(t) = -3 + 6\frac{t}{t_f}.
+```
+- **Bending magnitude** `theta(t)`: sinusoidal reference.
+```math
+\bar{\theta}(t) = 1.0 + \frac{\pi}{4}\sin(1.5 t).
+```
 
 These references were selected to evaluate spatial bending-plane reorientation together with a time-varying curvature magnitude.
 
 ## Figures
 
-### Tracking of `phi(t)` and `theta(t)`
+### Tracking of $\phi(t)$ and $\theta(t)$
 
 ![Spatial tracking](./figures/spatial_phi_theta_tracking.png)
 

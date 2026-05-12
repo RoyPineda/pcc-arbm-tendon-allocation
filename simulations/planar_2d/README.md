@@ -25,8 +25,18 @@ q = [q_1, q_2, q_3]^\top
 The three segments follow different curvature references:
 
 - **Segment 1:** linear reference trajectory.
+```math
+ \bar{q}_1(t) = \pi/2 + \pi \frac{t}{t_f},
+```
 - **Segment 2:** smooth quintic reference trajectory.
+```math
+\bar{q}_2(t) = -0.5 + (1.5)\,
+    \left( 10\tau^3 - 15\tau^4 + 6\tau^5 \right),
+```
 - **Segment 3:** sinusoidal reference trajectory.
+```math
+\bar{q}_3(t) =  1.5\sin( t).
+```
 
 These references were selected to evaluate the response of the control-allocation framework under different motion profiles.
 
